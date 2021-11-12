@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="shortcut icon" href="./assets/images/logo.ico">
+
+    <title>Soon</title>
+
+    <link rel="stylesheet" href="./assets/styles.css" />
+
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <sagu-header></sagu-header>
+      <sagu-navbar></sagu-navbar>
+      <div class="error">
+        <h1>404 Not Found</h1>
+        <br>
+        Maaf website ini masih dalam tahap pengembangan. 
+        <br>
+        Mohon dimaklumi karena terdapat banyak kekurangan didalamnya.
+        <br>
+        Developer juga masih perlu belajar banyak mengenai pengembangan website.
+        <br>
+        Terimakasih.
+        <br>
+        -Gungde
+      </div>
+      <sagu-footer></sagu-footer>
+    </div>
+
+    <script src="./main.js"></script>
+
+    <script src="./components/Header.js"></script>
+    <script src="./components/NavBar.js"></script>
+    <script src="./components/Footer.js"></script>
+    
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+  </body>
+</html>

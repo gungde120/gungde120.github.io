@@ -1,0 +1,40 @@
+Kodingan agak berantakan karena masih belajar tahap sederhana hehe.
+
+//dump codes
+background:  linear-gradient(-90deg, #6a85cf, #16c0b0);
+
+linear-gradient(-90deg, #f0f0f0, #dddddd);
+
+
+  new Vue({
+        el:'#vue-footer',
+    })
+
+
+/foot
+margin-right: 0px;
+  display: inline-block;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 1.2vw;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  color:rgb(255, 255, 255);
+  bottom: 0px;
+  margin: 0px;
+  border: none;
+
+
+//ul
+position: relative;
+  text-align: center;
+  font-size: 1vw;
+  background: linear-gradient(-90deg, #0077ff, #0077ff00);
+  padding: 20px 20px 10px 20px;
+  height: 25px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: none;
